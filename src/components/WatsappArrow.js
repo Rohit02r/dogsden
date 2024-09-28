@@ -11,14 +11,14 @@ const WatsappArrow = () => {
     return (
         <div>
            
-            <button className="scroll-to-top" onClick={scrollToTop}>
-            <img src={Arr} alt="Scroll to top" className='ica' /> 
+        
+            <img src={Arr} alt="Scroll to top" className='ica' onClick={scrollToTop}/> 
 
-            </button>
+           
 
           
             <a 
-                href="https://wa.me/your-number" 
+                href="https://wa.me/9360790829" 
                 className="whatsapp-icon" 
                 target="_blank" 
                 rel="noopener noreferrer"

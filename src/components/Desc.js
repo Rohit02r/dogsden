@@ -17,7 +17,7 @@ function Desc() {
                             <h3 className="m-1 ">Responsible Breeders</h3>
                         </Card.Title>
                         <Card.Text className="sm">
-                            Responsible breeders prioritize the health and well-being of their dogs...
+                            Responsible breeders prioritize the health and well-being of their dogs. They ensure that all breeding practices are ethical and that each dog is raised in a nurturing environment.
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -26,12 +26,12 @@ function Desc() {
             <div className="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center mb-4" data-aos="fade-up" data-aos-duration="1000">
                 <Card className="shadow-lg descar" style={{ width: '22rem', height: '400px' }}>
                     <Card.Img variant="top" src={He} style={{ height: '180px', objectFit: 'cover' }} />
-                    <Card.Body style={{ overflow: 'hidden' }} className="bl">
+                    <Card.Body style={{ overflow: 'hidden' }}className="bl">
                         <Card.Title>
                             <h3 className="m-1 ">Healthy Dogs</h3>
                         </Card.Title>
                         <Card.Text className="sm">
-                            Healthy dogs are the result of proper nutrition...
+                            Healthy dogs are the result of proper nutrition, regular exercise, and routine veterinary care. They are less prone to genetic diseases and tend to live longer, happier lives.
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -40,12 +40,12 @@ function Desc() {
             <div className="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center mb-4" data-aos="fade-up" data-aos-duration="1000">
                 <Card className="shadow-lg descar" style={{ width: '22rem', height: '400px' }}>
                     <Card.Img variant="top" src={Vaci} style={{ height: '180px', objectFit: 'cover' }} />
-                    <Card.Body style={{ overflow: 'hidden' }} className="bl">
+                    <Card.Body style={{ overflow: 'hidden' }}className="bl">
                         <Card.Title>
                             <h3 className="m-1">Vaccinated Dogs</h3>
                         </Card.Title>
                         <Card.Text className="sm">
-                            Vaccinated dogs are protected against various diseases...
+                            Vaccinated dogs are protected against various diseases that can be harmful or even fatal. Regular vaccinations are crucial for their health and help in controlling the spread of infectious diseases. 
                         </Card.Text>
                     </Card.Body>
                 </Card>

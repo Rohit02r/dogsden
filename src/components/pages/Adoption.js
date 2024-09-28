@@ -34,7 +34,7 @@ export const dogs = [
   
   const DogCard = ({ dog, handleAdoptNow }) => (
     <div className="col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center mb-4 brad" data-aos="fade-up" data-aos-duration="1000">
-      <Card className="shadow-lg al" style={{ width: '20rem', height: '380px' }}>
+      <Card className="shadow-lg al " style={{ width: '20rem', height: '380px' }}>
         <Card.Img
           variant="top"
           src={dog.image}
@@ -54,26 +54,26 @@ export const dogs = [
         </Card.Body>
       </Card>
     </div>
-);
-
-function Adoption() {
+  );
+  
+  function Adoption() {
     const navigate = useNavigate();
     const handleAdoptNow = (dogName) => {
-        const formattedDogName = dogName.toLowerCase().replace(/ /g, '-');
-        navigate(`/dog/${formattedDogName}`);
+      const formattedDogName = dogName.toLowerCase().replace(/ /g, '-');
+      navigate(`/dog/${formattedDogName}`);
     };
-
+  
     return (
-        <>
-            <h2 className='mt-3 p-2'>Create Unforgettable Memories with Your New Pup!</h2>
-            <hr />
-            <div className="testimonials-container d-flex justify-content-center flex-wrap mt-5">
-                {dogs.map((dog, index) => (
-                    <DogCard key={index} dog={dog} handleAdoptNow={handleAdoptNow} />
-                ))}
-            </div>
-        </>
+      <>
+        <h2 className='mt-3 p-2'>Create Unforgettable Memories with Your New Pup!</h2>
+        <hr />
+        <div className="testimonials-container d-flex justify-content-center flex-wrap mt-5">
+          {dogs.map((dog, index) => (
+            <DogCard key={index} dog={dog} handleAdoptNow={handleAdoptNow} />
+          ))}
+        </div>
+      </>
     );
-}
-
-export default Adoption;
+  }
+  
+  export default Adoption;
