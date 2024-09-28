@@ -9,8 +9,18 @@ import Navbar from './components/pages/Navbar';
 import DogDetails from './components/DogDetails';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+import { useEffect } from 'react';
+import WatsappArrow from './components/WatsappArrow';
+
+
+
 
 function App() {
+  useEffect(() => {
+    AOS.init();
+}, []);
   return (
     <div className="App">
       <Router basename={process.env.PUBLIC_URL}>
@@ -22,6 +32,7 @@ function App() {
           <Route path='/Sell' element={<Sell />} />
           <Route path='/About' element={<About />} />
         </Routes>
+        <WatsappArrow/>
         <Footer />
       </Router>
     </div>

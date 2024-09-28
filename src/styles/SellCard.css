@@ -25,7 +25,7 @@
     .im {
         width: 100%; 
         padding: 0; 
-}
+}}
 
 .sc {
     position: relative; 
@@ -86,4 +86,6 @@
     color: white;
     z-index: 2; 
 }
-}
+
+
+
