@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dogsden/static/css/main.fe4f3051.css",
-    "main.js": "/dogsden/static/js/main.25ad22e5.js",
+    "main.css": "/dogsden/static/css/main.66188c8d.css",
+    "main.js": "/dogsden/static/js/main.772ab82f.js",
     "static/js/453.963aa963.chunk.js": "/dogsden/static/js/453.963aa963.chunk.js",
     "static/media/cgr.jpg": "/dogsden/static/media/cgr.cb0e9b80744544b39e3a.jpg",
     "static/media/paw.jpg": "/dogsden/static/media/paw.45638834ff20ba4fbba8.jpg",
@@ -30,15 +30,17 @@
     "static/media/doglo.jpg": "/dogsden/static/media/doglo.4b92f78be3c8bbf91b64.jpg",
     "static/media/i.svg": "/dogsden/static/media/i.a05ff817360ff072dfe0c80487de8e87.svg",
     "static/media/w.svg": "/dogsden/static/media/w.73446a91f78019cbec1e2d190e9150b6.svg",
+    "static/media/wg.svg": "/dogsden/static/media/wg.f50b2aaae0bd8934e9105e63dc750668.svg",
     "static/media/y.svg": "/dogsden/static/media/y.f22812069ff694f2221e4e8c04417755.svg",
     "index.html": "/dogsden/index.html",
     "static/media/t.svg": "/dogsden/static/media/t.35ad775867f49879e1f2ac10d0d541b6.svg",
-    "main.fe4f3051.css.map": "/dogsden/static/css/main.fe4f3051.css.map",
-    "main.25ad22e5.js.map": "/dogsden/static/js/main.25ad22e5.js.map",
+    "static/media/arr.svg": "/dogsden/static/media/arr.3d21f776f69d21857d0e4fcec15916fc.svg",
+    "main.66188c8d.css.map": "/dogsden/static/css/main.66188c8d.css.map",
+    "main.772ab82f.js.map": "/dogsden/static/js/main.772ab82f.js.map",
     "453.963aa963.chunk.js.map": "/dogsden/static/js/453.963aa963.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe4f3051.css",
-    "static/js/main.25ad22e5.js"
+    "static/css/main.66188c8d.css",
+    "static/js/main.772ab82f.js"
   ]
 }
