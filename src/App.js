@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Home from './components/pages/Home';
+import Footer from './components/Footer';
+import Sell from './components/pages/Sell';
+import Adoption from './components/pages/Adoption';
+import About from './components/pages/About';
+import Navbar from './components/pages/Navbar';
+import DogDetails from './components/DogDetails';
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+      <Navbar />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/Adoption' element={<Adoption />} />
+          <Route path="/dog/:breed" element={<DogDetails/>} />
+          <Route path='/Sell' element={<Sell />} />
+          <Route path='/About' element={<About />} />
+        </Routes>
+        <Footer /> 
+      </Router>
     </div>
   );
 }

@@ -1,0 +1,89 @@
+.sell-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.im {
+    border-radius: 25px;
+    max-width: 100%; 
+    height: auto;  
+}
+
+@media (max-width: 768px) {
+    .sell-container {
+        flex-direction: column; 
+        padding: 20px; 
+        text-align: center; }
+    
+    Card {
+        width: 100%; 
+    }
+
+    .im {
+        width: 100%; 
+        padding: 0; 
+}
+
+.sc {
+    position: relative; 
+    border-radius: 10px;
+    margin: 0% auto;
+    background-image: url(../assets//Sell/Pd.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+    width: 70%; 
+    height: 35%; 
+    border: 1px solid #ccc;
+   
+    justify-content: center;
+    align-items: center;
+    color: black; 
+    z-index: 1; 
+}
+
+.sc::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); 
+    border-radius: 10px;
+    z-index: -1; 
+    
+}
+
+.bt {
+    border: 2px #FF8225;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: white;
+    background-color: #FF8225;
+    z-index: 2; 
+    margin-bottom: 50px;
+}
+
+.bt:hover{
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: #FF8225;
+    background-color:white ;
+    z-index: 2;
+}
+
+.tex {
+    margin: 100px 0 0 0;
+   font-weight: normal;
+   padding: 0 20px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    z-index: 2; 
+}
+}

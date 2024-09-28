@@ -1,0 +1,33 @@
+.about-container {
+    padding: 20px;
+}
+
+.about-heading {
+    margin-bottom: 20px;
+}
+
+.experience-list,
+.vaccination-breeding-section ul,
+.achievements-section ul {
+    list-style-type: disc;
+    padding-left: 30px;
+    margin-bottom: 25px;
+}
+
+
+.experience-list li::marker,
+.vaccination-breeding-section ul li::marker,
+.achievements-section ul li::marker {
+    color: #FF8225; 
+}
+
+
+.experience-list li,
+.vaccination-breeding-section ul li,
+.achievements-section ul li {
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-top: 20px;
+}

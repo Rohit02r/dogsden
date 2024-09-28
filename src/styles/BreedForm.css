@@ -1,0 +1,111 @@
+form {
+    width: 100%;
+    max-width: 500px;
+   filter: opacity(0.8);
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 2px solid #FF8225; /* Border color */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #FF8225;
+}
+
+/* Label styles */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #FF8225;
+}
+
+/* Input and select styles */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+select:hover{
+   color: #FF8225;
+}
+input:focus, select:focus {
+    outline: none;
+    border-color: #FF8225; /* Highlight color */
+    box-shadow: 0 0 5px rgba(255, 130, 37, 0.5); /* Optional: Add a subtle shadow */
+}
+
+/* Invalid input styles */
+.is-invalid {
+    border-color: red; /* Border color for invalid input */
+}
+
+/* Error message styles */
+.err {
+    color: red;
+    font-size: 14px;
+    margin: -10px 0 10px 0;
+}
+
+/* Button styles */
+.buttonbf {
+    border: 2px solid #FF8225;
+    font-weight: bold;
+    padding: 10px 35px;
+    border-radius: 15px;
+    color: white;
+    background-color: #FF8225;
+    z-index: 2;
+}
+
+.buttonbf:hover {
+    color: #FF8225;
+    background-color:white;
+}
+
+
+.Toastify__toast-container {
+    width: 350px;
+}
+
+.Toastify__toast--success {
+    background-color: white;
+    color: black;
+}
+
+input::placeholder {
+    color: #FF8225; 
+    opacity: 1; 
+}
+
+
+select:focus::placeholder {
+    color: #FF8225; 
+}
+.simple-select .react-select__control {
+    border-color: #FF8225;
+}
+
+.simple-select .react-select__control--is-focused {
+    border-color: #FF8225; 
+    box-shadow: none; 
+}
+
+.simple-select .react-select__option--is-selected {
+    background-color: #FF8225; 
+    color: white; 
+}
+
+.simple-select .react-select__option--is-focused {
+    background-color: #FFe0d1; 
+}

@@ -1,0 +1,74 @@
+.dd{
+    display: flex;
+   justify-content: start;
+   text-align:center;
+   align-items: center;
+   background-color: #FF8225;
+   border-radius: 10px;
+}
+
+.ddf{
+    background-color: black;
+    height:400px ;
+}
+
+.ddb{
+    border: 2px #FF8225;
+    font-weight: bold;
+    padding: 10px 50px;
+    border-radius: 15px;
+    color: white;
+    background-color: #FF8225;
+    z-index: 2; 
+}
+
+.ddb:active {
+    background-color: #FF6A00; 
+    color: #fff; 
+    transform: scale(0.98); 
+    outline: none;
+}
+
+.ddb:hover{
+    border: 1px solid #FF8225;
+    color: #FF8225;
+    background-color: white;
+}
+
+.dd input:focus, .dd select:focus {
+    background-color: gray;
+    outline: none;
+    border-color: #FF8225;
+    box-shadow: 0 0 5px rgba(255, 130, 37, 0.5); 
+}
+
+.formd{
+    filter: opacity(0.9);
+}
+@media (max-width: 945px){
+    .dd{
+        
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ddf{
+        text-align: center;
+        justify-content: center;
+        margin: 50px 0px;
+        height:350px ;
+        width: 300px;
+    }
+}
+
+.ddcar{
+    margin: 10px 50px;
+    background-color: black;
+    color: white;
+}
+
+toast{
+    background-color: white;
+}

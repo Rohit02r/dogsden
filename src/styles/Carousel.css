@@ -1,0 +1,30 @@
+.imsi{
+    filter: brightness(0.5);
+   
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+    
+    
+    padding:10px 50px;
+    height: 520px;
+    width: 100%;
+}
+
+.caro{
+  
+    justify-content: center;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .imsi{
+    
+        padding:10px 20px;
+        height: 300px;
+        width: 100%;
+    } 
+}
+.cap{
+    margin: 0% auto;
+    padding: 5%;
+    text-shadow: 2px 2px 40px;
+}
