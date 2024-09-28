@@ -13,16 +13,16 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <Router>
-      <Navbar />
+      <Router basename={process.env.PUBLIC_URL}>
+        <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/Adoption' element={<Adoption />} />
-          <Route path="/dog/:breed" element={<DogDetails/>} />
+          <Route path="/dog/:breed" element={<DogDetails />} />
           <Route path='/Sell' element={<Sell />} />
           <Route path='/About' element={<About />} />
         </Routes>
-        <Footer /> 
+        <Footer />
       </Router>
     </div>
   );
