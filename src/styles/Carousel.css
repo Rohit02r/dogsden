@@ -1,9 +1,9 @@
 .imsi{
-    filter: brightness(0.5);
+    filter: brightness(0.7);
    
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+        
     
-    
+    border-radius: 5%;
     padding:10px 50px;
     height: 520px;
     width: 100%;
@@ -26,5 +26,6 @@
 .cap{
     margin: 0% auto;
     padding: 5%;
-    text-shadow: 2px 2px 40px;
+    
+    text-shadow: 2px 2px 45px;
 }

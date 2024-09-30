@@ -9,9 +9,9 @@ import * as Yup from 'yup';
 import { ToastContainer,toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-// Validation schema using Yup
+
 const validationSchema = Yup.object().shape({
-  phone: Yup.string().matches(/^[0-9]{10}$/, 'Phone number must be 10 digits').required('Phone is required'),
+  phone: Yup.string().matches(/^[0-9]{10}$/, 'Number must be 10 digits').required('Phone is required'),
   name: Yup.string().required('Name is required')
 });
 
@@ -19,7 +19,7 @@ const DogDetails = () => {
   const { breed } = useParams();
   const dog = dogs.find((dog) => dog.name.toLowerCase().replace(/ /g, '-') === breed);
 
-  // Form handling
+
   const { register, handleSubmit, formState: { errors } } = useForm({
     resolver: yupResolver(validationSchema)
   });
