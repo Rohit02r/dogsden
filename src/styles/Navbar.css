@@ -1,14 +1,14 @@
 .Navbar {
-    position: sticky;      /* Change to sticky */
-    top: 0;                /* Stick to the top */
+    position: sticky;      
+    top: 0;                
     background-color: black;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Keep space between logo and links */
-    z-index: 1000;        /* Ensure the navbar is above other content */
+    justify-content: space-between; 
+    z-index: 1000;        
     padding: 10px 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
 }
 
 .Nav-links {
@@ -21,7 +21,7 @@
 
 .Nav-links a {
     color: white;
-    padding: 10px 20px;  /* Adjust padding for a better look */
+    padding: 10px 20px;  
     text-decoration: none;
     text-align: center;
 }
@@ -34,13 +34,13 @@
 
 .HamMenu {
     border-radius: 5px;
-    display: none; /* Default display for desktop */
+    display: none; 
     flex-direction: column;
     cursor: pointer;
     z-index: 2;
     width: auto;
     padding: 15px;
-    margin-left: auto; /* Pushes the HamMenu to the right side */
+    margin-left: auto; 
 }
 
 .Hambar {
@@ -51,9 +51,9 @@
 }
 
 .Nav-links a.active {
-    font-weight: bold;  /* Make the active link bold */
-    border-bottom: 2px solid #f0a500; /* Optional underline */
-    color: #f0a500; /* Highlight the active link with a different color */
+    font-weight: bold;  
+    border-bottom: 2px solid #f0a500; 
+    color: #f0a500; 
 }
 
 .log{
@@ -64,11 +64,11 @@
 
 @media (max-width: 768px) {
     .Nav-links {
-        position: fixed; /* Prevent the menu from causing overflow */
+        position: fixed; 
         top: 60px;
         right: 0;
         width: 100%;
-        height: 200px; /* Full height for mobile view */
+        height: 200px; 
         background-color: black;
         display: flex;
         flex-direction: column;
@@ -91,7 +91,7 @@
     .HamMenu {
         display: flex; 
         color: black;
-        background-color: gray;
+        background-color: #FF8225;
         margin-left: auto; 
     }
 
