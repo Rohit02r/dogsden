@@ -22,10 +22,17 @@
         height: 300px;
         width: 100%;
     } 
+    .cap{
+        margin: 0% auto;
+        padding: 5%;
+        font-size: smaller;
+        font-weight: 100;
+        text-shadow: 2px 2px 45px;
+    }
 }
 .cap{
     margin: 0% auto;
     padding: 5%;
-    
+    color:#FF8225 ;
     text-shadow: 2px 2px 45px;
 }

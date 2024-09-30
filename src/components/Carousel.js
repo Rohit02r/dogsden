@@ -14,35 +14,35 @@ function Carousels() {
             <Carousel.Item>
                 <img src={Coverg} alt="Coverg" className="d-block imsi"/>
                 <Carousel.Caption className="cap">
-                <em><h2>From our family to yours trusted, <b>Responsible</b> Breeders .</h2></em>
+                <em><h4>From our family to yours trusted, <b>Responsible</b> Breeders .</h4></em>
                 </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
                 <img src={Gn} alt="Gn" className="d-block imsi"/>
                 <Carousel.Caption className="cap">
-                    <em><h2>Puppy love, protected fully <b><em>Vaccinated</em></b> for a healthy start.</h2></em>
+                    <em><h4>Puppy love, protected fully <b><em>Vaccinated</em></b> for a healthy start.</h4></em>
                 </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
                 <img src={gr} alt="gr" className="d-block imsi"/>
                 <Carousel.Caption className="cap">
-                    <em><h2>Strong, happy, and full of life <b><em>Healthy Dogs</em></b> raised with care</h2></em>
+                    <em><h4>Strong, happy, and full of life <b><em>Healthy Dogs</em></b> raised with care</h4></em>
                 </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
                 <img src={p} alt="p" className="d-block imsi"/>
                 <Carousel.Caption className="cap">
-                <em><h2>Get your <b><em>Dream Dog </em></b> at half the price 50% off on all breeds</h2></em>
+                <em><h4>Get your <b><em>Dream Dog </em></b> at half the price 50% off on all breeds</h4></em>
                 </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
                 <img src={s} alt="s" className="d-block imsi"/>
                 <Carousel.Caption className="cap">
-                <em><h2><b><em>Your Dog</em></b> is waiting for You</h2></em>
+                <em><h4><b><em>Your Dog</em></b> is waiting for You</h4></em>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
