@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dogsden/static/css/main.7a55a429.css",
+    "main.css": "/dogsden/static/css/main.2e7dfa16.css",
     "main.js": "/dogsden/static/js/main.8c1a4e85.js",
     "static/js/453.963aa963.chunk.js": "/dogsden/static/js/453.963aa963.chunk.js",
     "static/media/cgr.jpg": "/dogsden/static/media/cgr.cb0e9b80744544b39e3a.jpg",
@@ -35,12 +35,12 @@
     "index.html": "/dogsden/index.html",
     "static/media/t.svg": "/dogsden/static/media/t.35ad775867f49879e1f2ac10d0d541b6.svg",
     "static/media/arr.svg": "/dogsden/static/media/arr.3d21f776f69d21857d0e4fcec15916fc.svg",
-    "main.7a55a429.css.map": "/dogsden/static/css/main.7a55a429.css.map",
+    "main.2e7dfa16.css.map": "/dogsden/static/css/main.2e7dfa16.css.map",
     "main.8c1a4e85.js.map": "/dogsden/static/js/main.8c1a4e85.js.map",
     "453.963aa963.chunk.js.map": "/dogsden/static/js/453.963aa963.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a55a429.css",
+    "static/css/main.2e7dfa16.css",
     "static/js/main.8c1a4e85.js"
   ]
 }
