@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/dogsden/static/css/main.eeb6dad1.css",
-    "main.js": "/dogsden/static/js/main.3ebf4f51.js",
+    "main.css": "/dogsden/static/css/main.7a55a429.css",
+    "main.js": "/dogsden/static/js/main.8c1a4e85.js",
     "static/js/453.963aa963.chunk.js": "/dogsden/static/js/453.963aa963.chunk.js",
     "static/media/cgr.jpg": "/dogsden/static/media/cgr.cb0e9b80744544b39e3a.jpg",
     "static/media/paw.jpg": "/dogsden/static/media/paw.45638834ff20ba4fbba8.jpg",
@@ -35,12 +35,12 @@
     "index.html": "/dogsden/index.html",
     "static/media/t.svg": "/dogsden/static/media/t.35ad775867f49879e1f2ac10d0d541b6.svg",
     "static/media/arr.svg": "/dogsden/static/media/arr.3d21f776f69d21857d0e4fcec15916fc.svg",
-    "main.eeb6dad1.css.map": "/dogsden/static/css/main.eeb6dad1.css.map",
-    "main.3ebf4f51.js.map": "/dogsden/static/js/main.3ebf4f51.js.map",
+    "main.7a55a429.css.map": "/dogsden/static/css/main.7a55a429.css.map",
+    "main.8c1a4e85.js.map": "/dogsden/static/js/main.8c1a4e85.js.map",
     "453.963aa963.chunk.js.map": "/dogsden/static/js/453.963aa963.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eeb6dad1.css",
-    "static/js/main.3ebf4f51.js"
+    "static/css/main.7a55a429.css",
+    "static/js/main.8c1a4e85.js"
   ]
 }
